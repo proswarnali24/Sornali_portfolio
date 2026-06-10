@@ -1,13 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+import home2 from "../../Assets/home2.png";
 import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import Techstack from "./Techstack";
 import Toolstack from "./Toolstack";
-import home2 from "../../Assets/home2.png"
-import home3 from "../../Assets/home3.png"  
 
 function About() {
   return (

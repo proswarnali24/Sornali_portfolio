@@ -1,27 +1,22 @@
-import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiHtml5,
   DiCss3,
-  DiMysql,
   DiDatabase,
+  DiGit,
+  DiHtml5,
+  DiJava,
+  DiJavascript1,
+  DiMongodb,
+  DiMysql,
+  DiNodejs,
+  DiPython,
+  DiReact,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiNextdotjs
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
