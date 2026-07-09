@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import onecart from "../../Assets/Projects/onecart.png";
+import solivana from "../../Assets/Projects/solivana.png";
 import interviewiq from "../../Assets/Projects/interviewiq.png";
 import chatpata from "../../Assets/Projects/chatpata.png";
 import handwriting from "../../Assets/Projects/handwriting.png";
@@ -21,10 +21,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={onecart}
+              imgPath={solivana}
               isBlog={false}
-              title="OneCart"
-              description="OneCart – AI-powered full-stack eCommerce web app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include secure user authentication, smart AI-based product search, cart and checkout system, order history, and an admin dashboard for managing users, products, and orders."
+              title="Solivana"
+              description="Solivana – AI-powered full-stack eCommerce web app built using the MERN stack (MongoDB, Express.js, React.js, Node.js). Features include secure user authentication, smart AI-based product search, cart and checkout system, order history, and an admin dashboard for managing users, products, and orders."
               ghLink="https://github.com/proswarnali24/OneCart"
               demoLink="https://onecart-frontendonecart.onrender.com"
             />

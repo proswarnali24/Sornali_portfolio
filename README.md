@@ -27,7 +27,7 @@ This project was built using the following technologies:
 
 ## Core Projects Showcased
 
-1. **OneCart** - Full-stack AI-powered e-commerce web app built on the MERN stack.
+1. **Solivana** - Full-stack AI-powered e-commerce web app built on the MERN stack.
 2. **InterviewIQ** - Full-stack AI mock interview platform featuring custom question generation.
 3. **ChatPata** - Real-time full-stack chat application with Gemini-based moderation.
 4. **Handwriting Recognizer** - Deep learning digit classification system built using CNNs in PyTorch.
