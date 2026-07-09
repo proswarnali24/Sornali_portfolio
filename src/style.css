@@ -1,22 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, .main-name, .purple {
+  font-family: 'Outfit', sans-serif !important;
+}
+
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(43, 43, 160, 0.582),
-    rgba(113, 31, 31, 0.904)
-    /* rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863) */
-    
+  --section-background-color: radial-gradient(
+    circle at 50% 50%,
+    #0d0b26 0%,
+    #04030f 100%
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(43, 43, 160, 0.582),
-    rgba(113, 31, 31, 0.904)
-    /* rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863) */
+    rgba(10, 8, 28, 0.7),
+    rgba(5, 4, 15, 0.9)
   );
 
-  --imp-text-color: #e79e4a;
+  --imp-text-color: #00f2fe;
+  --highlight-purple: #c95bf5;
 }
 
 .purple {
@@ -67,13 +73,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(0, 242, 254, 0.6);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(0, 242, 254, 0.9);
   border-radius: 12px;
 }
 
@@ -472,17 +478,19 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(250, 249, 251, 0.459) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3) !important;
   color: white !important;
-  background-color: transparent !important;
-  opacity: 0.9 !important;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.4s ease-in-out !important;
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
-  overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(230, 110, 110, 0.561) !important;
+  transform: translateY(-5px) scale(1.01) !important;
+  border: 1px solid rgba(0, 242, 254, 0.3) !important;
+  box-shadow: 0 8px 32px 0 rgba(0, 242, 254, 0.15) !important;
 }
 
 .blog-card {
@@ -530,14 +538,18 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #623686 !important;
-  border-color: #623686 !important;
+  background: linear-gradient(45deg, #7f00ff, #e100ff) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 15px rgba(225, 0, 255, 0.2) !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #6d20c5d7 !important;
-  border-color: #6d20c5d7 !important;
+  background: linear-gradient(45deg, #9400d3, #ff00ff) !important;
+  box-shadow: 0 4px 20px rgba(225, 0, 255, 0.4) !important;
+  transform: translateY(-2px) !important;
 }
 .btn:focus {
   outline: none !important;
@@ -566,15 +578,16 @@ button:focus {
   font-size: 4.5em !important;
   margin: 15px !important;
   padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  background: rgba(255, 255, 255, 0.02) !important;
+  backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 12px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1) !important;
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  transition: all 0.3s ease-in-out !important;
 }
 
 @media (max-width: 767px) {
@@ -584,9 +597,10 @@ button:focus {
 }
 
 .tech-icons:hover {
-  transform: scale(1.05) !important;
-  overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  transform: translateY(-5px) !important;
+  border: 1px solid rgba(0, 255, 135, 0.3) !important;
+  box-shadow: 0 8px 24px 0 rgba(0, 255, 135, 0.15) !important;
+  color: #00ff87 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
